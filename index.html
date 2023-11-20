@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Official-Looking Registration Form</title>
+  <style>
+    /* Your existing CSS styles remain unchanged */
+
+    .user-table {
+      margin-top: 20px;
+      width: 100%;
+      border-collapse: collapse;
+    }
+
+    .user-table th, .user-table td {
+      border: 1px solid #ddd;
+      padding: 8px;
+      text-align: left;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Registration Form</h1>
+
+  <form id="registrationForm" onsubmit="return validateForm()">
+    <!-- Your existing form content remains unchanged -->
+  </form>
+
+  <div id="tableContainer">
+    <table class="user-table">
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Email</th>
+          <th>Password</th>
+          <th>Date of Birth</th>
+          <th>Accepted Terms</th>
+        </tr>
+      </thead>
+      <tbody id="userTableBody"></tbody>
+    </table>
+  </div>
+
+  <script src="./index.js"></script>
+</body>
+</html>
